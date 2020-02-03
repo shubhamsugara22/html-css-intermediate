@@ -1,0 +1,14 @@
+.one {
+    background-color: hsl(80, 50%, 22%);
+    font-size: 15px; <!---- hexcode for colour------>
+}
+.two{
+    font-size: 2rem;
+}
+.img{
+    width: 100vw;
+    height: 75vh;
+}
+body{
+    font-size: 2em;
+}
