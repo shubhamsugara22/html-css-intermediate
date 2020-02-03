@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+.one{
+    background-color: khaki;
+    margin: 25px;
+    border: 2px;
+    border-color: silver solid black;
+    padding-left: 15px;
+}
