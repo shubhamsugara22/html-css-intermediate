@@ -1,0 +1,40 @@
+.edit
+{
+    width: 75px;
+    height: 75px;
+    background-color:moccasin;
+    border: 3px dashed black;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main{
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction:  row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row-reverse nowrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    flex: 5 1  300px;
+}
+.two{
+    order: 4;
+    flex-grow: 2;
+    flex-basis: 200px;
+}
+.three{
+    order:3;
+    flex-shrink: 1;
+    align-self: flex-end;
+}
+.four{
+    order: 2;
+    flex-grow: 2;
+    align-self: center;
+}
