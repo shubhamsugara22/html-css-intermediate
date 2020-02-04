@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main
+{
+    width: 750px;
+    height: 750px;
+    border: 6px solid black;;
+    background-color: rgb(138, 104, 46);
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.sub{
+    width: 750px;
+    height: 750px ;
+    border: 6px solid black;
+}
+/*P{
+    padding: 70px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}*/
+p{
+    margin: 20px;
+    background-color: limegreen;
+    border: 5px dashed black;
+    background-clip: border-box;
+}
