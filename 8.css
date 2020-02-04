@@ -31,3 +31,9 @@ p{
     border: 5px dashed black;
     background-clip: border-box;
 }
+.yolo
+{
+    width: 550px;
+    height: 550px;
+    background-image: radial-gradient(red 100% indigo 78% );
+}
