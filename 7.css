@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.design{
+    background-color: lightgray;
+    border: 1px solid black;;
+    padding: 40px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 5px 10px;
+    grid-template-areas: "head head head head"
+    "art art asd asd"
+    "art art asd asd"
+    "art art asd asd"
+    "art art asd asd"
+    "foot foot foot foot";
+}
+.one{
+    grid-area: head;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.two
+{
+    grid-area: art;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 2/6;
+}
+.three
+{
+    grid-area: asd;
+    grid-column-start: 4 ;
+    grid-column-end: 5;
+}
+.four
+{
+    grid-area: foot;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
